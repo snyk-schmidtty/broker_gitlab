@@ -1,6 +1,6 @@
 FROM node:12
 
-MAINTAINER Snyk Ltd
+MAINTAINER Snyk Ltd.
 
 RUN npm install --global snyk-broker
 
