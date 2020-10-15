@@ -14,7 +14,7 @@ USER node
 RUN broker init gitlab
 
 USER root
-RUN apt-get update -y && apt-get upgrade -y && apt-get install iputils-ping -y
+RUN apt-get update -y && apt-get upgrade -y && apt-get install iputils-ping -y && apt-get install tcpdump
 USER node
 
 ######################################
